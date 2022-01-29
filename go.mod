@@ -1,4 +1,4 @@
-module go_test
+module new_homepage
 
 go 1.17
 

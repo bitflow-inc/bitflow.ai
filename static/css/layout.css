@@ -150,7 +150,7 @@ body { word-break:keep-all; font-family:'Noto Sans KR'; letter-spacing:0; }
 #main .safe ul li:nth-child(3) .img { background-image:url('../img/main/safe_bg3.jpg'); }
 #main .safe ul li:nth-child(4) .img { background-image:url('../img/main/safe_bg4.jpg'); }
 #main .safe ul li .txt {  }
-#main .safe ul li .txt p { font-size:24px; font-weight:700; color:#3c3c3c; padding:15px 0 5px; }
+#main .safe ul li .txt p { font-size:23px; font-weight:700; color:#3c3c3c; padding:15px 0 5px; }
 #main .safe ul li .txt span { color:#575757; }
 
 
