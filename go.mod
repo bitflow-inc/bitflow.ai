@@ -1,4 +1,4 @@
-module new_homepage
+module bitflow.ai
 
 go 1.17
 
