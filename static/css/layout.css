@@ -310,7 +310,7 @@ body { word-break:keep-all; font-family:'Noto Sans KR'; letter-spacing:0; }
   #sub .visual:after { position:absolute; top:93px; left:0; height:667px; background-size:cover; background-position:top center; background-repeat:no-repeat; }
   #sub .visual.about { background-image:url('../img/sub/about_bg.jpg'); }
   #sub .visual.solution { background-image:url('../img/sub/solution_bg_mobile.jpg'); }
-  #sub .visual.contact { background-image:url('../img/sub/contact_bg.jpg'); }
+  #sub .visual.contact { background-image:url('../img/sub/contact_bg_mobile.jpg'); }
   #sub .visual.press { background-image:url('../img/sub/press_bg_mobile.jpg'); }
 }
 
