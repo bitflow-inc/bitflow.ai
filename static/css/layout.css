@@ -103,7 +103,7 @@ body { word-break:keep-all; font-family:'Noto Sans KR'; letter-spacing:0; }
 #main article .title { font-size:36px; font-weight:700; text-align:center; margin:0 0 45px; }
 #main article .title_sub { font-size:16px; color:#575757; }
 
-#main .visual { padding:0; text-align:center; background-image:url('../img/main/visual_bg.png'); position:relative; z-index:0; background-size:cover; background-position:bottom; background-repeat:no-repeat; position:relative; }
+#main .visual { padding:0; text-align:center; background-image:url('../img/main/visual_bg.jpg'); position:relative; z-index:0; background-size:cover; background-position:bottom; background-repeat:no-repeat; position:relative; }
 #main .visual:after { display:block; content:''; width:100%; height:100%; position:absolute; top:0; left:0; background-image:url('../img/main/visual_bg_white.png'); z-index:1; position:absolute; top:0; left:0; background-size:cover; }
 #main .visual .wrap { height:calc(100vh - 93px); position:relative; }
 #main .visual .content { position:absolute; top:50%; left:0; width:100%; transform:translate(0,-50%); z-index:2; }
