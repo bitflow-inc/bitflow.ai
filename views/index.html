@@ -206,6 +206,26 @@
   </article>
 </section>
 
+<div id="popup-notice" class="pop-layer">
+  <div class="pop-container">
+    <div class="pop-conts">
+      <!--content //-->
+      <p class="ctxt mb20"><h2>주식분할로 인한 주권제출공고</h2>
+        <br>
+        &nbsp;&nbsp;&nbsp;비트플로 주식회사는 2022년 5월 16일 임시주주총회에서 액면가 100원의 보통주식 5주를 액면가 500원의 보통주식 1주로 병합하는 주식분할을 결의 하였습니다.
+        <br>&nbsp;&nbsp;&nbsp;이에 따라 당사의 주주 및 채권자는 본 공고 게재일로부터 1개월 이내에 당사 본점에 주권을 제출하여 주시기 바랍니다.
+        <br><br><div style="text-align: right">2022년  5월  25일
+        <br><br>서울특별시 노원구 초안산로 12, 창업보육실 504호(월계동, 인덕대학교 창업지원단)
+        <br><br>비트플로 주식회사<br>대표이사 김성준</div>
+      </p>
+      <div class="btn-r">
+        <a href="javascript:close_popup();" class="btn-layerClose">닫기</a>
+      </div>
+      <!--// content-->
+    </div>
+  </div>
+</div>
+
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
 var swiper_growth = new Swiper(".swiper_growth", {
@@ -233,4 +253,8 @@ var swiper_growth_img = new Swiper(".swiper_growth_img", {
     swiper: swiper_growth_thum,
   },
 });
+
+function close_popup() {
+  document.getElementById('popup-notice').style.display = 'none'
+}
 </script>
