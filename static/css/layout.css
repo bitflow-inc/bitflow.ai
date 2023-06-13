@@ -99,6 +99,7 @@ body { word-break:keep-all; font-family:'Noto Sans KR'; letter-spacing:0; }
 
 
 #main, #sub { margin:93px 0 0; overflow:hidden; }
+#main .safe ul li .img { border: 1px solid #a5a5a5; }
 #main article { padding:110px 0; }
 #main article .title { font-size:36px; font-weight:700; text-align:center; margin:0 0 45px; }
 #main article .title_sub { font-size:16px; color:#575757; }
